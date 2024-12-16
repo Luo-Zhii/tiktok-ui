@@ -1,0 +1,10 @@
+@import 'normalize.css';
+// @import '~/node_modules/@ibm/plex-sans/css/ibm-plex-sans-all.css';
+@use '@ibm/plex-sans/scss' as PlexSans with (
+   $font-prefix: 'font-path'
+);
+
+@include PlexSans.all();
+body {
+   font-family: 'IBM Plex Sans', sans-serif;
+}
