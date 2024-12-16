@@ -1,5 +1,5 @@
 import "./App.css";
-import Button from "./components/Button.js";
+import Button from "~/Button.js";
 function App() {
   return <Button />;
 }
