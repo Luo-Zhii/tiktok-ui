@@ -1,7 +1,0 @@
-@import 'normalize.css';
-@import '~@ibm/plex-sans/css/ibm-plex-sans.css';
-@use '@ibm/plex-sans/scss' as PlexSans with (
-   $font-prefix: 'font-path'
-);
-
-@include PlexSans.all();
